@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO NUEVE</title>
+</head>
+<body bgcolor="#808080">
+     <center><h3><font color="#8B0000">Campos de texto</font></h3></center>
+         <center><font face="arial">los campos de texto, como bien indica su nombre, es el que nos permite insetar en un
+         formulario. El usuario podra insertar texto visible sobre el campo.</font></center>
+
+     <br>
+     <center><input type="text" id="Indicador" size="50" name="Nombre" value="Nombre"/></center>
+
+     <br><br>
+     <center><h3><font color="#8B0000">Contraseñas</font></h3></center>
+         <center><font face="arial">Cuando un usuario inseta una contraseña dentro de un formulario necesitaremos. Casi seguro,
+         que el valor de la contraseña no aparezca y que por el contrario aparezcan caracteristicas como
+         asteristicos</font></center>
+     <br>
+     <center><input type="password" id="Identificador" size="50" name="Nombre"/></center>  
+     
+     <br><br>
+     <center><h3><font color="#8B0000">Checkbox</font></h3></center>
+         <center><font face="arial">Un Checkbox nos permitecapturar un dato del usuario mediante un elemento de check. El check puede tener
+         dos valores, seleccionado o no seleccionando. El tipo del elemento input que utilizaremos sera 
+         "Checkbox". Asi lo definiremos de la siguiente forma:</font></center>
+     <br>
+     <center><input type="checkbox" id="Identificador" name="Nombre" checked="checked"/></center>    
+     <center><input type="checkbox" id="Identificador" name="Nombre" checked="checked"/></center>
+     
+     <br><br>
+     <center><h3><font color="#8B0000">Radios</font></h3></center>
+         <center><font face="arial">Con los elementos de rario podemos ofrecer un conjunto de opcionesal usuario de tal manera que solo
+         pueda elegir una de ella. El tipo de elemento input que utilizaremos es "radio".</font></center>
+     <br>
+     <center><font face="arial"><input type="radio" id="menos18" value="menos18" name="edad"/>Menos de 18</font></center>    
+     <center><font face="arial"><input type="radio" id="18a30" value="18a30" name="edad"/>18 a 30</font></center> 
+     <center><font face="arial"><input type="radio" id="31a50" value="31a50" name="edad"/>31 a 50</font></center> 
+     <center><font face="arial"><input type="radio" id="mas50" value="mas50" name="edad"/>Mas de 50</font></center> 
+
+     <br><br>
+     <center><h3><font color="#8B0000">Ficheros</font></h3></center>
+         <center><font face="arial">Cuando diseñamos un formulario es posible que necesitemos enviar un fichero de datos al servidor. En
+         este cso el campo de entrado de datos nos tiene que dar la posibilidad de acceder al sistema de Ficheros
+         del dispositivo para poder seleecionar uno.</font></center>
+     <br>
+     <center><input type="file" id="Identificador" value="valor" name="Nombre"/></center>    
+
+     <br><br>
+     <center><h3><font color="#8B0000">Campos ocultos</font></h3></center>
+         <center><font face="arial">Otra de las opciones que nos podemos encontrar dentro de los formularios es con la necesidad de enviar
+         informacion oculta. Es decir, informacion que tiene que ir anexa al formulario pero que no necesita ser
+         introducia por el usuario. Para ello tenemos la posiblilidad de crar campos ocultos.</font></center>
+     <br>
+     <center><input type="hidden" id="Identificaro" value="Valor" name="Nombre"/></center>
+
+     <br><br>    
+     <center><h3><font color="#8B0000">Imagenes</font></h3></center>
+        <center><font face="arial">Uno de los tipos de elementos input "image". Mediante el tipo "image"
+        podemos crear un boton de envio que sea imagen. La imagen se cargara mediante 
+        el atributo src. La estructura para elementos input de este tipo: Ejemplo </font></center>
+     <br>
+     <center><input type="image" src="https://unipython.com/wp-content/uploads/2015/10/formulario-en-php-329x216.jpg" name="Nombre" alt="Texto alternativo"/></center>   
+
+     <br><br>
+     <center><h3><font color="#8B0000">Areas de texto</font></h3></center>
+         <center><font face="arial">Un elemento algo mas avanzado que el campo de entrada de datos es el area de texto.
+         Mediante un area de texto tenemos la capacidad de que el usuario inserte una gran 
+         cantidad de datos y ademas que esos datos puedan estar en diferentes lineas.</font></center>
+    <br>
+    <center><textarea rows="numerofilas" cols="numerocolumnas" name="Nombre"></textarea></center>        
+
+    <br><br>
+     <center><h3><font color="#8B0000">Combos de opciones</font></h3></center>
+         <center><font face="arial">Otro elemento que podemos insertar dentro de un formulario es un combo de opciones.
+         Es decir, un elemento en el que el usuario pueda eligir un elemento o varios de una 
+         lista.
+         <p>La sintaxis basica de un elemento select es:</select></p>
+         </font></center>
+     <br>
+     <center>
+         <select name="nombre" size="valoresvisibles" multiple="multiple">
+             <option label="etiqueta" value="valor"></option>
+         </select>  
+         <select >
+             <option >Real Madrid</option> 
+             <option>Real Betis</option> 
+             <option selected="Selcted">FC. Barcelona</option> 
+             <option>Atletico de Madrid</option> 
+             <option>Real Sociedad</option> 
+         </select>
+    </center>
+
+     <br><br>
+     <center><h3><font color="8B0000">Botones</font></h3></center>  
+         <center><font face="arial">una vez hemos insetado campos de texto en nuestro formulario es hora de 
+         insertar botones. Mediante los botones podremos realizar operaciones de envio del 
+         formulario, de manipulacion de datos, borrado, formulario. de manipulacion de datos, borrado </font></center>   
+     <br>
+     <center><input type="button" value="TextoBoton"/></center>
+     <center><input type="submit" value="TextoBoton"/></center>
+     <center><input type="reset" value="TextoBoton"/></center>
+       
+         
+
+
+         
+
+
+
+
+    
+
+
+
+
+</body>
+</html>
